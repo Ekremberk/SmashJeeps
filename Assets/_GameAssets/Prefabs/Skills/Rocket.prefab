@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2119237488850318714}
   - component: {fileID: 7762845045593472474}
   - component: {fileID: 6039990207286430806}
+  - component: {fileID: 2867554171556354559}
   - component: {fileID: 1368841986946970656}
   m_Layer: 0
   m_Name: Rocket
@@ -169,6 +170,20 @@ MonoBehaviour:
   UseRigidBodyForMotion: 0
   AutoUpdateKinematicState: 1
   AutoSetKinematicOnDespawn: 1
+--- !u!114 &2867554171556354559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823995718542437678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 656306556225d8242b0b32ab2ad13a1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  _mysteryBoxSkill: {fileID: 11400000, guid: 7258aaa78d9096d4e87cfb102ac297ed, type: 2}
 --- !u!65 &1368841986946970656
 BoxCollider:
   m_ObjectHideFlags: 0

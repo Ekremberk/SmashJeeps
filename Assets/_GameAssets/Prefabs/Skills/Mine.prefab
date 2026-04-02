@@ -209,6 +209,7 @@ GameObject:
   - component: {fileID: 4605740201879845796}
   - component: {fileID: 4153655613809565367}
   - component: {fileID: 8738298390986454895}
+  - component: {fileID: 3523889199575486664}
   - component: {fileID: 8965942198554721631}
   m_Layer: 0
   m_Name: Mine
@@ -338,6 +339,20 @@ MonoBehaviour:
   _groundLayer:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &3523889199575486664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8355833487958299202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb243358caf4f44b8ed886cb4a03dcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  _mysteryBoxSkill: {fileID: 11400000, guid: 7a15d2e1f9a85054d9b014d23385b6e6, type: 2}
 --- !u!65 &8965942198554721631
 BoxCollider:
   m_ObjectHideFlags: 0

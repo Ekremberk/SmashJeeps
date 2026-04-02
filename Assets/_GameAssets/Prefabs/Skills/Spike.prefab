@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 2162263456892703018}
   - component: {fileID: 4648723722306221470}
   - component: {fileID: 171818653425690305}
+  - component: {fileID: 156973368772213909}
   - component: {fileID: 9176057640885622159}
   m_Layer: 0
   m_Name: Spike
@@ -176,6 +177,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
   _spikeCollider: {fileID: 9176057640885622159}
+--- !u!114 &156973368772213909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2683132358479023607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ca353a7c7e0b644c82649953b6131b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  _mysteryBoxSkill: {fileID: 11400000, guid: cf0f0c28b54b8cd48b52e4d15c9006d9, type: 2}
 --- !u!65 &9176057640885622159
 BoxCollider:
   m_ObjectHideFlags: 0
